@@ -1,0 +1,35 @@
+name: Update top languages
+
+on:
+  schedule:
+    - cron: "0 4 * * 1" # every Monday, 04:00 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/top_languages.py"
+      - ".github/workflows/top-languages.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate language card
+        run: python3 .github/scripts/top_languages.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: ${{ github.repository_owner }}
+          MAX_LANGS: "6"
+          EXCLUDE_LANGS: "" # e.g. "HTML,CSS"
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/top-languages-*.svg
+          git diff --cached --quiet || (git commit -m "chore: update top languages card" && git push)
