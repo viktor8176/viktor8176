@@ -31,9 +31,11 @@
 **Databases & Tools**<br>
 <img src="https://skillicons.dev/icons?i=postgres,mongodb,docker,git" alt="PostgreSQL, MongoDB, Docker, Git" height="40">
 
+<!-- GitHub stats: hidden until there are public repos. Remove this comment wrapper to show the card again.
 ### GitHub stats
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/top-languages-dark.svg">
   <img alt="Most used languages" src="assets/top-languages-light.svg" width="100%">
 </picture>
+-->
