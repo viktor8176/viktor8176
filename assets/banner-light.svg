@@ -1,18 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Hi, I'm Viktor. Developer &amp; Dual Student in Data Science &amp; AI. Turning ideas into products.">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#3b82f6"/>
-      <stop offset="1" stop-color="#8b5cf6"/>
-    </linearGradient>
     <linearGradient id="gd" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#3b82f6"/>
       <stop offset="1" stop-color="#8b5cf6"/>
     </linearGradient>
-    <linearGradient id="gb" gradientUnits="userSpaceOnUse" x1="80" y1="0" x2="136" y2="0" spreadMethod="repeat">
-      <stop offset="0" stop-color="#2563eb"/>
-      <stop offset=".5" stop-color="#a855f7"/>
-      <stop offset="1" stop-color="#2563eb"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;56 0" dur="1.6s" repeatCount="indefinite"/>
+    <linearGradient id="gb" gradientUnits="userSpaceOnUse" x1="80" y1="0" x2="136" y2="0">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
     </linearGradient>
     <linearGradient id="gs" gradientUnits="userSpaceOnUse" x1="820" y1="0" x2="1140" y2="0">
       <stop offset="0" stop-color="#60a5fa"/>
@@ -20,8 +14,8 @@
     </linearGradient>
   </defs>
   <rect x="1" y="1" width="1198" height="318" rx="20" fill="#f8faff" stroke="#e3e8f5" stroke-width="2"/>
-  <rect x="80" y="74" width="56" height="7" rx="3.5" fill="url(#gb)"/>
-  <text x="76" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="66" font-weight="700" fill="url(#g)" letter-spacing="-1">Hi, I'm Viktor</text>
+  <rect x="80" y="74" width="7" height="7" rx="3.5" fill="url(#gb)"><animate attributeName="x" values="80;80;80;129;129;80;80;80;80" keyTimes="0;.2;.25;.45;.5;.7;.75;.95;1" dur="3.2s" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1;.45 0 .55 1;.45 0 .55 1;.45 0 .55 1;.45 0 .55 1;.45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/><animate attributeName="width" values="7;56;56;7;7;56;56;7;7" keyTimes="0;.2;.25;.45;.5;.7;.75;.95;1" dur="3.2s" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1;.45 0 .55 1;.45 0 .55 1;.45 0 .55 1;.45 0 .55 1;.45 0 .55 1;.45 0 .55 1" repeatCount="indefinite"/></rect>
+  <text x="76" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="66" font-weight="700" fill="#3b82f6" letter-spacing="-1"><tspan fill="#4080f6">H</tspan><tspan fill="#477cf6">i</tspan><tspan fill="#4a7bf6">,</tspan> <tspan fill="#5078f6">I</tspan><tspan fill="#5376f6">'</tspan><tspan fill="#5b73f6">m</tspan> <tspan fill="#696cf6">V</tspan><tspan fill="#7069f6">i</tspan><tspan fill="#7566f6">k</tspan><tspan fill="#7b63f6">t</tspan><tspan fill="#8260f6">o</tspan><tspan fill="#885df6">r</tspan></text>
   <text x="80" y="202" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="500" fill="#1f2937">Developer &amp; Dual Student in Data Science &amp; AI</text>
   <text x="80" y="242" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#6b7280">Turning ideas into products.</text>
   <g stroke="#c7d2fe" stroke-width="2" stroke-linecap="round">
